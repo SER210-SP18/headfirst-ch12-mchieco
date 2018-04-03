@@ -17,7 +17,6 @@ public class DrinkActivity extends Activity {
 
         TextView name = (TextView) findViewById(R.id.name);
         name.setText(drink.getName());
-
         TextView description = (TextView) findViewById(R.id.description);
         description.setText(drink.getDescription());
 
